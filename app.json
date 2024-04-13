@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "ExpenseTracker",
+    "slug": "security",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.ExpenseTracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Set this photosPermission notification message in app.json",
+          "cameraPermission": "Set this cameraPermission notification message in app.json",
+          "microphonePermission": "Set this microphonePermission notification message in app.json"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7201dc06-18c1-42f6-8c9b-b993accf3553"
+      }
+    },
+    "owner": "luuchanhunggs1",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7201dc06-18c1-42f6-8c9b-b993accf3553"
+    }
+  }
+}
